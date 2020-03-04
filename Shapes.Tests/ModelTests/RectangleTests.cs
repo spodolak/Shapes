@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shapes.Models;
 
-namespace Shapes.TestTools
+namespace Shapes.Tests
 {
   [TestClass]
   public class RectangleTests
@@ -16,7 +16,7 @@ namespace Shapes.TestTools
       //Assert
       Assert.AreEqual(result, 16);
     }
-    
+
     [TestMethod]
     public void Rectangle_IsSquare_True()
     {

@@ -30,5 +30,5 @@ namespace Shapes.Tests
       // Assert
       Assert.AreEqual(result, 96);
     }
-  }  
+  }         
 }
